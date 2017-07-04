@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="饼状图的演示示例"
+            android:gravity="center"
+            android:textSize="25sp"
+            />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="普通饼状图"
+            android:onClick="simplePie"
+            />
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="炸开的饼状图"
+            android:onClick="explodedPie"
+            />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="有中心圆的饼状图"
+            android:onClick="centerCirclePie"
+            />
+
+</LinearLayout>
+
